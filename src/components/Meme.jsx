@@ -6,7 +6,7 @@ const Meme = ({ meme, setMeme }) => {
     const [form, setForm] = useState({
         template_id:meme.id,
         username:"samyakjain34",
-        password:"samyak2904",
+        password:"123456789",
         boxes:[]
     })
      function generate(){

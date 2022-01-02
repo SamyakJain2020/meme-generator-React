@@ -12,12 +12,12 @@ async function f(url){
 
 function App() {
   const [datas, setDatas] = useState([]);
-  const [meme, setMeme] = useState("")  
+  const [meme, setMeme] = useState("")
   useEffect(() => {
      f('https://api.imgflip.com/get_memes')
     .then(setDatas)
   }, [])
-  // let url="https://api.imgflip.com/caption_image/87743020"
+  
   return (
     <>
     <link rel="preconnect" href="https://fonts.googleapis.com" / >
